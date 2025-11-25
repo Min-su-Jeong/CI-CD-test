@@ -1,6 +1,10 @@
 services:
   express-hello-world:
+<<<<<<< HEAD
     image: ubuntu/express-hello-world:latest
+=======
+    image: minsujeong/express-hello-world:latest
+>>>>>>> 7268f8c (Docker config update)
     ports:
       - "3000:3000"
     container_name: express-hello-world
